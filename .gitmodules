@@ -1,0 +1,3 @@
+[submodule "backend"]
+	path = granto-seguros-backend
+	url = git@github.com:eduumach/granto-seguros-backend.git
