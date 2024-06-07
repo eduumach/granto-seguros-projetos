@@ -1,0 +1,43 @@
+Imagine que voce precisa pegar todos esses dados do contrato e enviar o endreço, contrantente, valor, numero do SEI e todos os dados relevantes. Faça isso lendo o texto que vou enviar, envie somente o json como resposta.
+
+<Texto Aqui>
+
+Resposta:
+{
+  "contract_number": "XXX/SEHAB/2023",
+  "sei_process_number": "6014.2022/0003235-8",
+  "contracting_party": {
+    "name": "SECRETARIA MUNICIPAL DE HABITAÇÃO - SEHAB",
+    "cnpj": "46.392.106/0001-89",
+    "representative": {
+      "name": "Milton Vieira Pinto",
+      "position": "Secretário Municipal da Habitação"
+    }
+  },
+  "contracted_party": {
+    "name": "FULANA",
+    "cnpj": "XXXXXXXXXXXXXX",
+    "address": "Rua XXXXXXXX, n. XXX",
+    "representative": {
+      "name": "Beltrano",
+      "position": "cargo",
+      "rg": "XXXXXXXXX",
+      "cpf": "XXXXXXXXXX"
+    }
+  },
+  "object": "Contratação de empresa especializada para a Reforma e melhoria do sistema de gás, do sistema de proteção contra descargas atmosféricas (SPDA) e de combate ao incêndio, para obtenção do auto de vistoria do corpo de bombeiros (AVCB) do Conjunto habitacional Chácara Bela Vista.",
+  "contract_value": "R$ X.XXX.XXX,XX",
+  "base_date": "XXXX/2023",
+  "contract_terms": {
+    "execution_regime": "Empreitada por preços unitários",
+    "financial_resources": [
+      {
+        "year": 2023,
+        "budget_allocation": "XXXXXXXXXXXXXXXXXXXXXXX",
+        "commitment_note": "XXXXX",
+        "value": "R$ XX.XXX.XXX,XX"
+      }
+    ],
+    "price_composition": "A CONTRATADA declara expressamente que o valor previsto nesta cláusula abrange todos os custos diretos e indiretos relativos à execução do objeto deste contrato; e eventuais alterações de projeto deverão ser ajustadas na forma da lei."
+  }
+}
