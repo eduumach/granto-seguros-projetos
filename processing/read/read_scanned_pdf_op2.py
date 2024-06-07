@@ -20,7 +20,7 @@ def read_scanned_pdf(file_path):
     return '\n'.join(full_text)
 
 if __name__ == "__main__":
-    file_path = '../files/exp.pdf'
+    file_path = '../files/exp-image.pdf'
 
     document_text = read_scanned_pdf(file_path)
     print(document_text)

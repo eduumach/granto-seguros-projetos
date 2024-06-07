@@ -1,7 +1,6 @@
 import fitz
 
 def read_pdf_file(file_path):
-    # TODO: Parou de funcionar
     doc = fitz.open(file_path)
     
     full_text = []
@@ -12,7 +11,7 @@ def read_pdf_file(file_path):
     return '\n'.join(full_text)
 
 if __name__ == "__main__":
-    file_path = '../files/exp.pdf'
+    file_path = '../files/exp-not-image.pdf'
 
     document_text = read_pdf_file(file_path)
     print(document_text)
